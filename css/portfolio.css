@@ -1,0 +1,124 @@
+.portfolio-infos {
+    width: 1110px;
+    height: 1192px;
+    margin-top: 115px;
+    margin-bottom: 64px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-infos-left {
+    width: 350px;
+    height: 498px;
+
+    border-top:  1px solid;
+    border-bottom: 1px solid;
+    border-color: hsl(240, 2%, 92%);
+}
+
+.portfolio-infos-left h1 {
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+
+    margin-top: 48px;
+    margin-bottom: 29px;
+}
+
+.portfolio-infos-right h2 {
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.285714px;
+    margin-bottom: 28px;
+    color: #33323D;
+}
+
+.portfolio-infos-left p, .portfolio-infos-right p {
+    font-weight: normal;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.portfolio-infos-left p {
+    margin-bottom: 53px;
+    font-size: 16px;
+}
+
+.portfolio-infos-right p {
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.portfolio-infos-left span{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5FB4A2;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.portfolio-infos-left div {
+    margin-top: 32px;
+}
+
+.portfolio-infos-right span {
+    text-decoration: underline;
+}
+
+.portfolio-infos-right {
+    width: 635px;
+    height: 1192px;
+}
+
+.portfolio-infos-right-img {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+/*Pagination*/
+.portfolio-pages {
+    margin-bottom: 115px;
+    padding: 32px 0;
+    
+    display: flex;
+    justify-content: space-between;
+
+    border-top:  1px solid;
+    border-bottom: 1px solid;
+    border-color: hsl(240, 2%, 92%);
+}
+
+.portfolio-pages-info {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.portfolio-pages a {
+    text-decoration: none;
+}
+
+.portfolio-pages-info h3 {
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.285714px;
+    color: #33323D;
+}
+
+.portfolio-pages-info span {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}

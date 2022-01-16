@@ -1,0 +1,79 @@
+/*Hero Section*/
+.homepage-hero {
+    background-image: url("../../assets/home/image-homepage-hero.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1110px;
+    height: 600px;
+    padding-top: 243px;
+    margin-bottom: 150px;
+}
+
+.homepage-hero-div {
+    width: 445px;
+    height: 357px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.homepage-hero-div h1 {
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+    padding: 56px 28px 0 28px;
+    margin-bottom: 53px;
+    
+}
+
+/*Hero Section Button*/
+
+.about-me-button {
+    width: 200px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    background-color: hsl(205, 41%, 21%);
+}
+
+.about-me-button:hover {
+    background-color: hsl(167, 36%, 54%);
+}
+
+.about-me-button a {
+    text-decoration: none; 
+    display: flex;  
+}
+
+.about-me-button-text {
+    color: hsl(0, 0%, 98%);
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 17px 0;
+    display: inline-block;
+    padding: 17px 33px;
+}
+
+.about-me-button-img {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.1);
+    mix-blend-mode: normal;
+
+}
+
+.about-me-button:hover svg g{
+    stroke:hsl(0, 0%, 98%);
+}
+.about-me-button-img svg {
+    display: inline-block;
+    margin: 18px 16px;
+}
+
+/*About Section*/
+
+.go-to-portfolio {
+    text-align: center;
+    margin-bottom: 46px;
+}

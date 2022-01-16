@@ -1,0 +1,149 @@
+/*General*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+}
+
+.main {
+    width: 1110px;
+    margin: auto;
+}
+
+.current-page {
+    color: hsl(167, 36%, 54%);
+}
+
+/*Header*/
+
+header {
+    margin-top: 33px;
+    margin-bottom: 54px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: hsl(245, 10%, 22%);
+    margin-left: 42px;
+}
+
+
+/*Sections*/
+.section {
+    color: hsl(245, 10%, 22%);
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.section-text {
+    border-top:  1px solid;
+    border-bottom: 1px solid;
+    border-color: hsl(240, 2%, 92%);
+    margin-left: 140px;
+}
+
+.section-text h1, .contact-section-text {
+    font-size: 40px;
+    line-height: 42px;
+    margin-top: 51px;
+    margin-bottom: 28px;
+}
+
+.section-text p {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 24px;
+    opacity: 0.8;
+}
+
+/*Contact Section*/
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.contact-section-text {
+    margin: 0;
+    width: 367px;
+}
+
+.contact-section-hover:hover{
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(245, 10%, 22%);
+}
+
+/*Footer*/
+footer {
+    background-color: hsl(245, 10%, 22%);
+    padding: 33px 0;
+}
+
+footer nav ul li a {
+    color: hsl(0, 0%, 98%);
+}
+
+footer nav {
+    width: 1110px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bottom {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.social-networks-icons img {
+    display: inline-block;
+    margin-left: 16px;
+}
+
+/*Buttons*/
+
+.gray-outline {
+    display: inline-block;
+    text-decoration: none;
+    width: 204px;
+    color: hsl(245, 10%, 22%);
+    border: 1px solid;
+    padding: 17px 0;
+    font-size: 12px;   
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}

@@ -1,0 +1,46 @@
+/*Portfolio Section*/
+
+.portfolio-section {
+    margin: 0 47px;
+}
+
+.section {
+    width: 1015px;
+    height: 500px;
+    margin-bottom: 80px;
+}
+
+.last-section {
+    margin-bottom: 150px;
+}
+
+.section-text {
+    padding-top: 103px;
+    padding-bottom: 103px;
+}
+
+/*Tá funcionando, porém o código poderia estar melhor, rever*/
+.section-text-3-and-4{
+    padding-top: 87px;
+    padding-bottom: 87px;
+}
+/* */
+
+.section-text-left {
+    margin-left: 125px;
+}
+
+.section-text-right {
+    margin-left: 0;
+    margin-right: 125px;
+}
+
+.section-text h1 {
+    margin: 0;
+    margin-bottom: 28px;
+}
+
+.section-text p {
+    margin-bottom: 54px;
+    
+}
